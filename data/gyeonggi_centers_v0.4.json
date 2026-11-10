@@ -1,0 +1,1814 @@
+{
+  "schema_version": "1.1.0",
+  "dataset_name": "마음자리 경기도 31개 시·군 정신건강 지원 정보",
+  "app_version": "prototyping-0.4",
+  "locale": "ko-KR",
+  "created_at": "2026-11-10T17:00:00+09:00",
+  "verified_at": "2026-11-10",
+  "scope": {
+    "province": "경기도",
+    "regions_count": 31,
+    "centers_count": 31,
+    "description": "경기도 31개 시·군별 대표 정신건강복지센터와 도 단위 청년 치료비 지원 정보를 제공한다."
+  },
+  "filter_options": {
+    "regions": [
+      "경기도 전체",
+      "가평군",
+      "고양시",
+      "과천시",
+      "광명시",
+      "광주시",
+      "구리시",
+      "군포시",
+      "김포시",
+      "남양주시",
+      "동두천시",
+      "부천시",
+      "성남시",
+      "수원시",
+      "시흥시",
+      "안산시",
+      "안성시",
+      "안양시",
+      "양주시",
+      "양평군",
+      "여주시",
+      "연천군",
+      "오산시",
+      "용인시",
+      "의왕시",
+      "의정부시",
+      "이천시",
+      "파주시",
+      "평택시",
+      "포천시",
+      "하남시",
+      "화성시"
+    ],
+    "service_types": [
+      "정신건강 상담",
+      "청년 치료비 지원"
+    ],
+    "targets": [
+      "청소년·청년",
+      "성인",
+      "전체"
+    ]
+  },
+  "records": [
+    {
+      "id": "gapyeong-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "가평군정신건강복지센터",
+      "province": "경기도",
+      "region": "가평군",
+      "address": "가평군 가평읍 가화로 155-15 정신건강복지센터 1층, 3층",
+      "phone": "031-581-8881",
+      "website": "http://www.gpmhc.com/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "가평군",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "가평군정신건강복지센터 공식 홈페이지",
+          "publisher": "가평군정신건강복지센터",
+          "url": "http://www.gpmhc.com/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "goyang-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "고양시정신건강복지센터",
+      "province": "경기도",
+      "region": "고양시",
+      "address": "고양특례시 일산동구 중앙로 1100, 일산동구보건소 별관 4층",
+      "phone": "031-968-2333",
+      "website": "http://www.goyangmaum.org",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "고양시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "고양시정신건강복지센터 공식 홈페이지",
+          "publisher": "고양시정신건강복지센터",
+          "url": "http://www.goyangmaum.org",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "gwacheon-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "과천시정신건강복지센터",
+      "province": "경기도",
+      "region": "과천시",
+      "address": "과천시 관문로 69 과천시보건소 2층",
+      "phone": "02-504-4440",
+      "website": "http://www.kcmhc.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "과천시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "과천시정신건강복지센터 공식 홈페이지",
+          "publisher": "과천시정신건강복지센터",
+          "url": "http://www.kcmhc.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "gwangju-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "광주시정신건강복지센터",
+      "province": "경기도",
+      "region": "광주시",
+      "address": "광주시 파발로 194 광주시보건소 별관 2층",
+      "phone": "031-762-8728",
+      "website": "https://www.gmhc.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "광주시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "광주시정신건강복지센터 공식 홈페이지",
+          "publisher": "광주시정신건강복지센터",
+          "url": "https://www.gmhc.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "gwangmyeong-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "광명시정신건강복지센터",
+      "province": "경기도",
+      "region": "광명시",
+      "address": "광명시 오리로 613 광명시보건소 3층",
+      "phone": "02-897-7786",
+      "website": "https://www.gmmhc.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "광명시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "광명시정신건강복지센터 공식 홈페이지",
+          "publisher": "광명시정신건강복지센터",
+          "url": "https://www.gmmhc.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "guri-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "구리시정신건강복지센터",
+      "province": "경기도",
+      "region": "구리시",
+      "address": "구리시 건원대로34번길 84 구리시보건소 3층",
+      "phone": "031-523-8672",
+      "website": "https://www.gurimhc.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "구리시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "구리시정신건강복지센터 공식 홈페이지",
+          "publisher": "구리시정신건강복지센터",
+          "url": "https://www.gurimhc.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "gunpo-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "군포시정신건강복지센터",
+      "province": "경기도",
+      "region": "군포시",
+      "address": "군포시 군포로 221",
+      "phone": "031-461-1771",
+      "website": "https://www.gpcmhc.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "군포시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "군포시정신건강복지센터 공식 홈페이지",
+          "publisher": "군포시정신건강복지센터",
+          "url": "https://www.gpcmhc.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "gimpo-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "김포시정신건강복지센터",
+      "province": "경기도",
+      "region": "김포시",
+      "address": "김포시 사우중로 108 김포시보건소 별관 2층",
+      "phone": "031-998-4005",
+      "website": "https://www.gimpomhc.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "김포시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "김포시정신건강복지센터 공식 홈페이지",
+          "publisher": "김포시정신건강복지센터",
+          "url": "https://www.gimpomhc.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "namyangju-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "남양주시정신건강복지센터",
+      "province": "경기도",
+      "region": "남양주시",
+      "address": "남양주시 경춘로 522 남양주시청 제2청사",
+      "phone": "031-592-5891",
+      "website": "https://www.ourmind.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "남양주시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "남양주시정신건강복지센터 공식 홈페이지",
+          "publisher": "남양주시정신건강복지센터",
+          "url": "https://www.ourmind.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "dongducheon-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "동두천시정신건강복지센터",
+      "province": "경기도",
+      "region": "동두천시",
+      "address": "동두천시 거북마루로 49 동두천시보건소 별관 2층",
+      "phone": "031-863-3632",
+      "website": "https://www.cmhc.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "동두천시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "동두천시정신건강복지센터 공식 홈페이지",
+          "publisher": "동두천시정신건강복지센터",
+          "url": "https://www.cmhc.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "bucheon-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "부천시정신건강복지센터",
+      "province": "경기도",
+      "region": "부천시",
+      "address": "부천시 오정구 성오로 172 오정구청 3층",
+      "phone": "032-654-4024",
+      "website": "http://www.bucheonlove.co.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "부천시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "부천시정신건강복지센터 공식 홈페이지",
+          "publisher": "부천시정신건강복지센터",
+          "url": "http://www.bucheonlove.co.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "seongnam-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "성남시정신건강복지센터",
+      "province": "경기도",
+      "region": "성남시",
+      "address": "성남시 수정구 수정로 218 수정구보건소 5층",
+      "phone": "031-780-7000",
+      "website": "http://www.smhc.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "성남시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "성남시정신건강복지센터 공식 홈페이지",
+          "publisher": "성남시정신건강복지센터",
+          "url": "http://www.smhc.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "suwon-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "수원시행복정신건강복지센터",
+      "province": "경기도",
+      "region": "수원시",
+      "address": "수원시 장안구 송원로 101 장안구청 1층",
+      "phone": "031-253-5737",
+      "website": "http://www.suwonmental.org/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "수원시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "수원시행복정신건강복지센터 공식 홈페이지",
+          "publisher": "수원시행복정신건강복지센터",
+          "url": "http://www.suwonmental.org/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "siheung-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "시흥시정신건강복지센터",
+      "province": "경기도",
+      "region": "시흥시",
+      "address": "시흥시 호현로 55 시흥시보건소 5층",
+      "phone": "031-316-6661",
+      "website": "https://www.shsmhc.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "시흥시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "시흥시정신건강복지센터 공식 홈페이지",
+          "publisher": "시흥시정신건강복지센터",
+          "url": "https://www.shsmhc.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "ansan-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "안산시정신건강복지센터",
+      "province": "경기도",
+      "region": "안산시",
+      "address": "안산시 단원구 화랑로 387 1층",
+      "phone": "031-411-7573",
+      "website": "https://www.ansanmind.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "안산시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "안산시정신건강복지센터 공식 홈페이지",
+          "publisher": "안산시정신건강복지센터",
+          "url": "https://www.ansanmind.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "anseong-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "안성시정신건강복지센터",
+      "province": "경기도",
+      "region": "안성시",
+      "address": "안성시 강변로 74번길 24",
+      "phone": "031-678-5356",
+      "website": "http://www.asmhwc.co.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "안성시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "안성시정신건강복지센터 공식 홈페이지",
+          "publisher": "안성시정신건강복지센터",
+          "url": "http://www.asmhwc.co.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "anyang-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "안양시정신건강복지센터",
+      "province": "경기도",
+      "region": "안양시",
+      "address": "안양시 만안구 안양로 147 만안구보건소 5층",
+      "phone": "031-469-2989",
+      "website": "https://www.telepsy.co.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "안양시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "안양시정신건강복지센터 공식 홈페이지",
+          "publisher": "안양시정신건강복지센터",
+          "url": "https://www.telepsy.co.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "yangju-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "양주시정신건강복지센터",
+      "province": "경기도",
+      "region": "양주시",
+      "address": "양주시 만삼로 133",
+      "phone": "031-840-7320",
+      "website": "https://www.yjgreenmind.com/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "양주시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "양주시정신건강복지센터 공식 홈페이지",
+          "publisher": "양주시정신건강복지센터",
+          "url": "https://www.yjgreenmind.com/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "yangpyeong-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "양평군정신건강복지센터",
+      "province": "경기도",
+      "region": "양평군",
+      "address": "양평군 양평읍 중앙로111번길 34-21 3층",
+      "phone": "031-771-3521",
+      "website": "https://www.ypmental.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "양평군",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "양평군정신건강복지센터 공식 홈페이지",
+          "publisher": "양평군정신건강복지센터",
+          "url": "https://www.ypmental.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "yeoju-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "여주시정신건강복지센터",
+      "province": "경기도",
+      "region": "여주시",
+      "address": "여주시 여흥로 160번길 12 2층",
+      "phone": "031-886-3435",
+      "website": "https://www.yeojumind.com/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "여주시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "여주시정신건강복지센터 공식 홈페이지",
+          "publisher": "여주시정신건강복지센터",
+          "url": "https://www.yeojumind.com/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "yeoncheon-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "연천군정신건강복지센터",
+      "province": "경기도",
+      "region": "연천군",
+      "address": "연천군 전곡읍 은대성로 95 연천군의료원 내",
+      "phone": "031-832-8106",
+      "website": "https://www.yccmhc.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "연천군",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "연천군정신건강복지센터 공식 홈페이지",
+          "publisher": "연천군정신건강복지센터",
+          "url": "https://www.yccmhc.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "osan-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "오산시정신건강복지센터",
+      "province": "경기도",
+      "region": "오산시",
+      "address": "오산시 경기동로 59 오산시보건소 2층",
+      "phone": "031-374-8680",
+      "website": "https://www.osmh.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "오산시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "오산시정신건강복지센터 공식 홈페이지",
+          "publisher": "오산시정신건강복지센터",
+          "url": "https://www.osmh.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "yongin-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "용인시정신건강복지센터",
+      "province": "경기도",
+      "region": "용인시",
+      "address": "용인시 기흥구 신갈로 58번길 11 신갈동행정복지센터 내 3층",
+      "phone": "031-286-0949",
+      "website": "http://www.ycenter.or.kr",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "용인시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "용인시정신건강복지센터 공식 홈페이지",
+          "publisher": "용인시정신건강복지센터",
+          "url": "http://www.ycenter.or.kr",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "uiwang-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "의왕시정신건강복지센터",
+      "province": "경기도",
+      "region": "의왕시",
+      "address": "의왕시 오봉로 34 의왕시보건소 별관 1층",
+      "phone": "031-458-0682",
+      "website": "http://www.uwmhc.com/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "의왕시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "의왕시정신건강복지센터 공식 홈페이지",
+          "publisher": "의왕시정신건강복지센터",
+          "url": "http://www.uwmhc.com/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "uijeongbu-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "의정부시정신건강복지센터",
+      "province": "경기도",
+      "region": "의정부시",
+      "address": "의정부시 범골로 158 건윤빌딩 2층",
+      "phone": "031-838-4181",
+      "website": "https://www.umind.or.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "의정부시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "의정부시정신건강복지센터 공식 홈페이지",
+          "publisher": "의정부시정신건강복지센터",
+          "url": "https://www.umind.or.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "icheon-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "이천시정신건강복지센터",
+      "province": "경기도",
+      "region": "이천시",
+      "address": "이천시 부악로 30-45 (보건소 2층)",
+      "phone": "031-637-2330",
+      "website": "http://www.imhc.co.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "이천시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "이천시정신건강복지센터 공식 홈페이지",
+          "publisher": "이천시정신건강복지센터",
+          "url": "http://www.imhc.co.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "paju-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "파주시정신건강복지센터",
+      "province": "경기도",
+      "region": "파주시",
+      "address": "파주시 조리읍 봉천로 68 1층",
+      "phone": "031-942-2117",
+      "website": "http://www.pajumind.org/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "파주시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "파주시정신건강복지센터 공식 홈페이지",
+          "publisher": "파주시정신건강복지센터",
+          "url": "http://www.pajumind.org/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "pocheon-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "포천시정신건강복지센터",
+      "province": "경기도",
+      "region": "포천시",
+      "address": "포천시 포천로 1612 포천시보건소 3층",
+      "phone": "031-532-1655",
+      "website": "https://www.pocheonmind.com/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "포천시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "포천시정신건강복지센터 공식 홈페이지",
+          "publisher": "포천시정신건강복지센터",
+          "url": "https://www.pocheonmind.com/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "pyeongtaek-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "평택시정신건강복지센터",
+      "province": "경기도",
+      "region": "평택시",
+      "address": "평택시 평택5로 56 평택보건소 본관 2층",
+      "phone": "031-658-9818",
+      "website": "https://www.pyeongtaek.go.kr/health/mainChm.do?mId=0801000000",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "평택시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "평택시정신건강복지센터 공식 홈페이지",
+          "publisher": "평택시정신건강복지센터",
+          "url": "https://www.pyeongtaek.go.kr/health/mainChm.do?mId=0801000000",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "hanam-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "하남시정신건강복지센터",
+      "province": "경기도",
+      "region": "하남시",
+      "address": "하남시 미사강변대로 200 하남시미사보건센터 2층",
+      "phone": "031-793-6552",
+      "website": "http://www.cmhc.co.kr/",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "하남시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "하남시정신건강복지센터 공식 홈페이지",
+          "publisher": "하남시정신건강복지센터",
+          "url": "http://www.cmhc.co.kr/",
+          "source_type": "official_center"
+        }
+      ]
+    },
+    {
+      "id": "hwaseong-mental-health-center",
+      "record_type": "community_mental_health_center",
+      "name": "화성시정신건강복지센터",
+      "province": "경기도",
+      "region": "화성시",
+      "address": "화성시 향남읍 향남로 470 화성종합경기타운 실내체육관 1층",
+      "phone": "031-352-0175",
+      "website": "http://www.hsmind.or.kr",
+      "services": [
+        "지역주민 정신건강 상담 및 선별검사",
+        "정신건강 고위험군 사례관리와 전문기관 연계",
+        "생애주기별 정신건강 증진 프로그램"
+      ],
+      "eligibility": "해당 시·군 주민 중심 · 세부 대상은 센터 확인",
+      "cost": {
+        "label": "상담·프로그램별 확인",
+        "amount_krw": null,
+        "status": "contact_required"
+      },
+      "availability": {
+        "status": "contact_required",
+        "label": "운영 중 · 방문 전 전화 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "화성시",
+          "경기도 전체"
+        ],
+        "service_types": [
+          "정신건강 상담"
+        ],
+        "targets": [
+          "청소년·청년",
+          "성인",
+          "전체"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "지역 정신건강 기관 바로가기",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        },
+        {
+          "title": "화성시정신건강복지센터 공식 홈페이지",
+          "publisher": "화성시정신건강복지센터",
+          "url": "http://www.hsmind.or.kr",
+          "source_type": "official_center"
+        }
+      ]
+    }
+  ],
+  "province_programs": [
+    {
+      "id": "gyeonggi-youth-mindcare-2026",
+      "record_type": "treatment_cost_support",
+      "name": "2026 경기도 청소년·청년마인드케어",
+      "province": "경기도",
+      "region": "경기도 전체",
+      "eligibility": "경기도 거주 15~34세(2026년 기준 1991~2011년 출생) 중 F20~29·F30~39·F40~48 질병코드로 5년 이내 초진받은 사람",
+      "services": [
+        "2026년 정신건강의학과 외래진료 본인일부부담금 지원"
+      ],
+      "cost": {
+        "label": "연 30만원 이내 지원 · 다른 외래치료비 지원과 합산 상한 36만원",
+        "amount_krw": 300000,
+        "combined_cap_krw": 360000,
+        "status": "official_2026"
+      },
+      "application": "주민등록표상 주소지 관할 정신건강복지센터 또는 자살예방센터에 문의·신청",
+      "availability": {
+        "status": "contact_required",
+        "label": "예산·접수 가능 여부 관할 센터 확인"
+      },
+      "filter_keys": {
+        "regions": [
+          "경기도 전체"
+        ],
+        "service_types": [
+          "청년 치료비 지원"
+        ],
+        "targets": [
+          "청소년·청년"
+        ]
+      },
+      "verified_at": "2026-11-10",
+      "sources": [
+        {
+          "title": "2026 정신건강 치료비 지원 안내",
+          "publisher": "경기도",
+          "url": "https://www.gg.go.kr/myggd/vol202/1_2.php",
+          "source_type": "official"
+        },
+        {
+          "title": "청소년·청년마인드케어",
+          "publisher": "경기도정신건강복지센터",
+          "url": "https://www.mentalhealth.or.kr/",
+          "source_type": "official"
+        }
+      ]
+    }
+  ],
+  "emergency_resources": [
+    {
+      "id": "suicide-prevention-109",
+      "name": "자살예방상담전화",
+      "phone": "109",
+      "availability": "365일 24시간",
+      "source_url": "https://www.mohw.go.kr/menu.es?mid=a10716040000"
+    },
+    {
+      "id": "mental-health-crisis-1577-0199",
+      "name": "정신건강위기 상담전화",
+      "phone": "1577-0199",
+      "availability": "24시간",
+      "source_url": "https://www.mentalhealth.go.kr/portal/disease/diseaseDetail.do?dissId=26"
+    },
+    {
+      "id": "gyeonggi-crisis-center",
+      "name": "경기도정신건강위기대응센터",
+      "phone": "031-212-0435",
+      "availability": "대표 안내",
+      "source_url": "https://www.mentalhealth.or.kr/"
+    }
+  ],
+  "data_notes": [
+    "31개 시·군 센터의 기관명·전화·주소·홈페이지는 경기도정신건강복지센터 공식 기관 목록을 기준으로 한다.",
+    "센터별 운영시간·비용·세부 프로그램은 중앙 목록에 일괄 공개되지 않아 임의로 추정하지 않고 전화 확인으로 표시한다.",
+    "청소년·청년마인드케어는 진단·초진 시점 등 자격 요건과 예산을 관할 센터에서 최종 확인해야 한다.",
+    "즉각적인 자해·타해 위험이 있으면 앱 검색보다 112·119 또는 109·1577-0199 이용을 우선한다."
+  ]
+}
